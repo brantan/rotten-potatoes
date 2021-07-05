@@ -35,6 +35,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tages: |
+          tags: |
             brantan/rotten-potatoes:latest
             brantan/rotten-potatoes:${{github.run_number}}
